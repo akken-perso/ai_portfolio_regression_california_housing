@@ -6,3 +6,6 @@ Méthodologie : EDA, feature engineering, Modèle Ridge/Lasso, Métriques $R^2$/
 Résultats Clés : meilleur score $R^2$ et  RMSE.
 Compétences Démontrées : Pandas, Scikit-learn, Régularisation.
 Comment Exécuter : pip install -r requirements.txt.
+
+Un bon modèle doit avoir des résidus distribués de manière aléatoire autour de l'axe y=0. 
+Ici on a une forme (un cône), cela signifie que le modèle a du mal à prédire pour certaines plages de prix (clairement les maisons les plus chères).
